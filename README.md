@@ -75,7 +75,7 @@ return expect(fixture.build(node)).to.eventually.deep.equal({
 });
 ```
 
-### `FixtureBuilder`: Building repeatedly
+### `Builder`: Building repeatedly
 
 The `build` function builds only once. If you need to build repeatedly, for
 example to test caching logic, use the `fixture.Builder` class. It's used just
