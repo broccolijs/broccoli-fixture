@@ -1,5 +1,7 @@
 # Broccoli Fixture Helpers
 
+[![Build Status](https://travis-ci.org/broccolijs/broccoli-fixture.svg?branch=master)](https://travis-ci.org/broccolijs/broccoli-fixture)
+
 This package is useful for testing Broccoli plugins without interacting with
 the file system. It lets you turn
 [fixturify](https://github.com/joliss/node-fixturify) objects into Broccoli
