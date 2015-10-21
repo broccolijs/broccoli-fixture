@@ -1,0 +1,29 @@
+{
+  "name": "broccoli-fixture",
+  "description": "Fixture testing helpers for Broccoli",
+  "version": "0.0.0",
+  "author": "Jo Liss <joliss42@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/broccolijs/broccoli-fixture"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "testing"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "broccoli": "^0.16.8",
+    "broccoli-fixturify": "^0.2.0",
+    "fixturify": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3"
+  }
+}
