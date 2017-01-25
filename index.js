@@ -14,9 +14,10 @@ function FixtureBuilder(node, options) {
 }
 
 FixtureBuilder.prototype.build = function() {
+  var self = this
   return Builder.prototype.build.call(this)
     .then(function(hash) {
-      return fixturify.readSync(hash.directory)
+      return fixturify.readSync(self.outputPath)
     })
 }
 
